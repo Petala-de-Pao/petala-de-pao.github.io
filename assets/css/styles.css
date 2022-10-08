@@ -954,6 +954,16 @@ footer
 --------------------------------------------- 
 */
 
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato-info a{
+  margin: 20px 0;
+}
+
 @media (max-width: 992px) {
   footer {
     padding-top: 0px!important;
