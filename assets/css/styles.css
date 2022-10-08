@@ -830,9 +830,6 @@ promotion
   margin-bottom: 0px;
 }
 
-#promotion .right-text img {
-}
-
 #promotion .right-text h4 {
   font-size: 22px;
   color: #1e1e1e;
@@ -1007,6 +1004,12 @@ Contato
 #contato .author img {
   max-width: 120px;
   margin-bottom: -60px;
+}
+
+@media (max-width: 1140px) {
+  .infor {
+    background-color: rgba(255,255,255, .7);
+  }
 }
 
 /* 
